@@ -401,13 +401,13 @@
         "VpcId": null,
         "SecurityGroupEgress": [
           {
-            "CidrIp": "0.0.0.0/0",
+            "CidrIp": "192.16.0.0/24",
             "IpProtocol": "tcp",
             "ToPort": 3306,
             "FromPort": 3306
           },
           {
-            "CidrIp": "0.0.0.0/0",
+            "CidrIp": "192.16.0.0/24",
             "IpProtocol": "tcp",
             "ToPort": 5432,
             "FromPort": 5432
